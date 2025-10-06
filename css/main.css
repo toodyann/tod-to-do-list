@@ -8,7 +8,7 @@ html,body {
     background-color: rgb(215, 101, 59);
     border-radius: 50px;
 
-    width: 1000px;
+    width: 900px;
     height:600px;
     padding: 60px;
     box-sizing: border-box;
@@ -81,7 +81,14 @@ button:hover{
 .toDoListItem{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    background-color: rgba(226, 218, 204, 0.224);
+    padding: 20px;
+    border-radius: 4px;
+    transition: ease 0.2s;
+}
+.toDoListItem:hover{
+    background-color: #785c5c;
 }
 
 .deleteBtn{
