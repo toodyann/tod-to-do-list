@@ -13,4 +13,10 @@ button.addEventListener('click' , () => {
     deleteButton.className = 'deleteBtn';
     list.appendChild(li);
     li.appendChild(deleteButton);
+    input.value = '';
+
+    deleteButton.addEventListener('click', () => {
+        list.removeChild (li);
+    });
 });
+
