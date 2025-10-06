@@ -43,6 +43,7 @@ body.loaded {
     justify-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
+
 }
 
 .inputContainer input {
@@ -50,6 +51,11 @@ body.loaded {
     height: 35px;
     background-color: #ffffff;
     border: 1px solid #000;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    
     border-right: none;
    
 }
