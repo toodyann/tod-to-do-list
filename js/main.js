@@ -7,7 +7,7 @@ button.addEventListener('click' , () => {
     li.className = 'toDoListItem';
 
     const text = input.value.trim();
-    if (text === '') return;
+    if (text === '') return 0;
 
     const deleteButton = document.createElement('button');
     li.innerText = input.value;
