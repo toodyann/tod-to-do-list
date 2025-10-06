@@ -1,7 +1,7 @@
 body {
     background-color: #283042;
         opacity: 0;
-        transition: opacity ease 4s;
+        transition: opacity ease 5s;
 }
     
 body.loaded {
@@ -96,6 +96,7 @@ button:hover{
 .toDoListItem{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     margin-bottom: 10px;
     padding: 20px;
