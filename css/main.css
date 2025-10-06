@@ -1,7 +1,14 @@
-html,body {
+body {
     background-color: #283042;
-    
+        opacity: 0;
+        transition: opacity ease 1s;
 }
+    
+body.loaded {
+    opacity: 1;
+  }
+  
+
 
 .toDoContainer{
     
