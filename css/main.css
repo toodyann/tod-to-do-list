@@ -12,6 +12,7 @@ html,body {
     height:600px;
     padding: 60px;
     box-sizing: border-box;
+    border: 5px solid rgb(81, 79, 91);
 
 }
 
@@ -25,11 +26,7 @@ html,body {
 .textToDoContainer{
     display: flex;
     justify-items: center;
-    justify-content: center;
-
-    
-
-    border: #283042;
+    justify-content: center;    
 }
 
 .inputContainer{
@@ -44,14 +41,15 @@ html,body {
     width: calc(100% - 100px);
     height: 35px;
     background-color: #ffffff;
-    border: 0;
+    border: 1px solid #000;
+    border-right: none;
 }
 
 .mainButton{
     color: white;
     background-color: rgb(255, 106, 0);
-    border: 0;
     cursor: pointer;
+    border: 1px solid #000;
     transition: ease 0.2s ;
 
     width: 100px;
