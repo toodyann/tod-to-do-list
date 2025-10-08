@@ -19,3 +19,7 @@ To-Do List — це простий веб-додаток для керуванн
 1. Клонувати репозиторій:  
    ```bash
    git clone https://github.com/toodyann/tod-to-do-list.git
+
+# Git посилання
+```bash
+ https://toodyann.github.io/tod-to-do-list/
