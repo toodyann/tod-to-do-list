@@ -1,0 +1,16 @@
+@media screen and (max-width:450px) {
+  .toDoContainer {
+    height: 700px;
+    width: 400px;
+  }
+  .inputContainer input{
+    width: 450px;
+  }
+  .mainButton{
+    width: 130px;
+  }
+  .toDoListItem{
+    padding: 8px;
+  }
+}
+

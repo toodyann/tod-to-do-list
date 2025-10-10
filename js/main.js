@@ -19,6 +19,6 @@ button.addEventListener('click' , () => {
     input.value = '';
     
     deleteButton.addEventListener('click', () => {
-    list.removeChild (li);
+    list.removeChild(li);
     });
 });
