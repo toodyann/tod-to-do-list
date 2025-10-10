@@ -6,6 +6,7 @@
   }
   .inputContainer input{
     width: 450px;
+    font-size: 16px;
   }
   .mainButton{
     width: 130px;
