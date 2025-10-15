@@ -1,7 +1,7 @@
 body {
-    background-color: #1d222d;
+    background-color: #12203e;
         opacity: 0;
-        transition: opacity ease 5s;
+        transition: opacity ease 2s;
 }
     
 body.loaded {
@@ -10,14 +10,15 @@ body.loaded {
   
 .toDoContainer{
     
-    background-color: rgb(207, 240, 255);
+    background-color: rgba(156, 156, 156, 0.049);
     border-radius: 70px;
 
     width: 900px;
     height:600px;
     padding: 60px;
     box-sizing: border-box;
-    border: 4px solid rgb(255, 255, 255);
+    border: 4px solid rgba(0, 0, 0, 0.009);
+
 
     
 }
@@ -43,30 +44,30 @@ body.loaded {
     justify-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-
+    color: #ffffff;
 }
 
 .inputContainer input {
     width: calc(100% - 100px);
     height: 35px;
     background-color: #ffffff;
-    border: 1px solid #ab9b9b;
+    border: 1px solid #0000001d;
     border-radius: 18px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-
-    
+    padding-left: 15px;
     border-right: none;
-   
+    background-color: #00000012;
+   color: #ffffff;
 }
 
 .mainButton{
-    color: white;
-    background-color:    #7b9ef1;
+    color: rgba(255, 255, 255, 0.381);
+    background-color:#6d6e6e11;
     cursor: pointer;
-    border: 1px solid #000;
+    border: 1px solid #00000037;
     border-radius: 18px;
-    transition: ease 0.2s ;
+    transition: ease 0.05s ;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 
@@ -75,19 +76,22 @@ body.loaded {
     font-size: 14px;
 
 }
+.mainButton:hover{
+    background-color:rgba(255, 255, 255, 0.121);
+    color: #fff;
+}
 button:hover{
-    background-color:rgb(43, 49, 94);
+    background-color:#b40303;
 }
 
 .textToDoContainer{
-    color:#283042; 
+    color:#ffffff72; 
 
     font-family: sans-serif;
     font-weight: 600;
     font-size: 35px;
     
 }
-
 
 .toDoList{
     list-style-type: none;
@@ -110,32 +114,32 @@ button:hover{
     padding: 20px;
     border-radius: 30px;
 
-    background-color: #138fc041;
-    border: 1px solid  rgba(212, 244, 243, 0.38); ;
-    transition: ease 0.2s;
-    color: rgb(0, 0, 0);
+    background-color: #138fc007;
+    border: 1px solid  rgba(212, 244, 243, 0.037); ;
+    transition: ease 0.1s;
+    color: rgb(255, 255, 255);
 
 }
 .toDoListItem:hover{
-    background-color: #cb2a2ad7;
+    background-color: #f3e7e714;
+    transform: scaleY(95%);
 }
 
 .deleteBtn{
-    background-color: rgb(244, 4, 4);
+    background-color: rgb(255, 0, 0);
     border: 0;
     border-radius: 30px;
     padding: 9px;
 
     font-family: sans-serif;
-    color: #283042;
+    color: #ffffff;
     color: #ffffff;
 
     transition: ease 0.2s ;
     cursor: pointer;
 }
 
-
-.inputContainer input{
-    padding-left: 15px;
+.inputText{
+    color: #fff;
 }
 
