@@ -1,21 +1,36 @@
 @media screen and (max-width:450px) {
   .toDoContainer {
-    height: 700px;
+    height: 860px;
     width: 415px;
-    padding: 20px;
+    padding: 15px;
+    border-radius: 0;
+  }
+  .textToDoContainer{
+    padding: 13px;
   }
   .inputContainer input{
     width: 450px;
     font-size: 16px;
+    color: aliceblue;
+    padding: 6px;
   }
   .mainButton{
     width: 130px;
   }
   .toDoListItem{
     padding: 8px;
+    padding-left: 15px;
+  }
+  .toDoList{
+    height: 650px;
   }
   .container{
-    margin-top: 10px;
+    margin-top: 0px;
   }
+
+  .deleteBtn {
+  padding: 10px;
+  font-size: 16px;
+}
 }
 
